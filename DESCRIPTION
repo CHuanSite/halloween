@@ -1,11 +1,14 @@
 Package: halloween
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A package to learn how to build the R package (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Huan Chen
+Maintainer: Huan Chen <hchen130@jhu.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+    dplyr,
+    ggplot2
